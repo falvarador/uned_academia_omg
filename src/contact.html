@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="assets/img/Logotype.svg" alt="Academia OMG">
+            <span>Academia OMG</span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Acerca</a>
+            <a href="scholarships.html">Becas</a>
+            <a href="courses.html">Cursos</a>
+            <a href="testimonials.html">Testimonios</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>CONTACTO</h1>
+        <form class="form-contact">
+            <div>
+                <label for="id">ID: </label>
+                <input type="text" name="id" id="id" pattern="^[0-9]+$" title="El campo sólo acepta números" required>
+                <br>
+                <label for="name">NOMBRE: </label>
+                <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras"
+                    required>
+                <br>
+                <label for="email">EMAIL: </label>
+                <input type="email" name="email" id="email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+                    title="El campo debe ser un correo electrónico válido" required>
+            </div>
+            <div>
+                <label for="birthday">FECHA DE NACIMIENTO: </label>
+                <input type="date" name="birthday" id="birthday" pattern="^[0-9]+$" title="El campo sólo acepta números"
+                    required>
+                <br>
+                <label for="telephone">TELÉFONO: </label>
+                <input type="text" name="telephone" id="telephone" pattern="^[0-9]+$"
+                    title="El campo sólo acepta números" required>
+                <br>
+                <label for="message">MENSAJE: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <img src="assets/img/Logotype.svg" alt="Academia OMG">
+            <div>
+                <span>Academia OMG</span>
+                <span>Institución de la educación y la cultura</span>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Acerca</a>
+            <a href="testimonials.html">Testimonios</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+        <nav>
+            <a href="free-courses.html">Cursos Libres</a>
+            <a href="fast-careers.html">Carreras Cortas</a>
+            <a href="certifications.html">Certificaciones</a>
+            <a href="scholarships.html">Becas y ayuda</a>
+        </nav>
+        <nav>
+            <a href="advertisements.html">Anuncios</a>
+            <a href="students.html">Estudiantes</a>
+            <a href="teachers.html">Profesores</a>
+            <a href="updates.html">Actualizaciones</a>
+        </nav>
+        <span>Todos los derechos reservados, 2021</span>
+    </footer>
+</body>
+
+</html>

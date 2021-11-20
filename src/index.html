@@ -1,115 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Inicio</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-
-<body>
-    <header>
-        <div>
-            <img src="assets/img/Logotype.svg" alt="Academia OMG">
-            <span>Academia OMG</span>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logotype">
+          <a href="index.html">
+            <img src="./assets/img/logotype.svg" alt="Academia OMG" />
+          </a>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">Acerca</a>
-            <a href="scholarships.html">Becas</a>
-            <a href="courses.html">Cursos</a>
-            <a href="testimonials.html">Testimonios</a>
-            <a href="contact.html">Contacto</a>
+        <button class="menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="index.html" class="is-active">Inicio</a>
+          <a href="about.html">Acerca</a>
+          <a href="scholarships.html">Becas</a>
+          <a href="courses.html">Cursos</a>
+          <a href="testimonials.html">Testimonios</a>
+          <a href="contact.html">Contacto</a>
         </nav>
-        <select name="language" id="language" required>
-            <option value="0" selected>ES</option>
-            <option value="1">EN</option>
-            <option value="2">FR</option>
-            <option value="3">IT</option>
-            <option value="4">PT</option>
-            <option value="5">GR</option>
-        </select>
+        <!--  <select name="language" id="language" required>
+        <option value="0" selected>ES</option>
+        <option value="1">EN</option>
+        <option value="2">FR</option>
+        <option value="3">IT</option>
+        <option value="4">PT</option>
+        <option value="5">GR</option>
+      </select> -->
+      </section>
     </header>
     <main class="container">
-        <section>
-            <h2>APERTURA DE NUEVAS ASIGNATURAS.</h2>
-            <img src="assets/img/image-slider.png" alt="Primera imagen número uno del carrusel principal">
-            <a href="#">CONOCER MÁS</a>
-        </section>
-        <section>
-            <article>
-                <span><img src="assets/icons/build.svg" alt="Cursos libres"></span>
-                <h2>CURSOS LIBRES</h2>
-                <small>Descubre todos los cursos disponibles dentro de nuestra plataforma.</small>
-            </article>
-            <article>
-                <span><img src="assets/icons/free-course.svg" alt="Certificaciones"></span>
-                <h2>CERTIFICACIONES</h2>
-                <small>Accede a las mejores certificaciones, guiado por nuestros profesores y comunidad.</small>
-            </article>
-            <article>
-                <span><img src="assets/icons/book.svg" alt="Carreras cortas"></span>
-                <h2>CARRERAS CORTAS</h2>
-                <small>Ingresa de forma rápida al mercado laboral y comienza a gestar tu futuro hoy mismo.</small>
-            </article>
-            <article>
-                <span><img src="assets/icons/dollar.svg" alt="Becas y ayudas"></span>
-                <h2>BECAS Y AYUDAS</h2>
-                <small>Creémos en las personas y sus capacidades, por lo cuál no dejes que temas económicos impidan tus
-                    sueños.</small>
-            </article>
-        </section>
-        <section>
-            <article>
-                <h3>MISIÓN</h3>
-                <p>Ofrecer educación superior a todos los sectores de la población, especialmente a aquellos que por
-                    razones económicas, sociales, geográficas, culturales, etarias, de discapacidad o de género,
-                    requieren oportunidades para una inserción real y equitativa en la sociedad.</p>
-            </article>
-            <article>
-                <h3>VISIÓN</h3>
-                <p>Ser líder en los procesos de enseñanza y aprendizaje que emplean de manera apropiada y mediados
-                    pedagógicamente, tecnologías y otros medios de comunicación social. Formando personas que piensen y
-                    actúen de manera crítica, creativa e inteligente.</p>
-            </article>
-            <aside>
-                <h2>ENCUÉNTRANOS EN:</h2>
-                <span><img src="assets/social_icons/facebook.svg" alt="Facebook"></span>
-                <span><img src="assets/social_icons/whatsapp.svg" alt="WhatsApp"></span>
-                <span><img src="assets/social_icons/twitter.svg" alt="Twitter"></span>
-                <span><img src="assets/social_icons/youtube.svg" alt="YouTube"></span>
-            </aside>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <img src="assets/img/Logotype.svg" alt="Academia OMG">
-            <div>
-                <span>Academia OMG</span>
-                <span>Institución de la educación y la cultura</span>
+      <section class="slider-images">
+        <article class="slider-image" style="--slider-image: url('../assets/img/image-slider.png'); --slider-attachment: auto">
+          <aside class="slider-image-opacity" style="--slider-opacity-color: var(--black-alpha-color)">
+            <div class="slider-image-content">
+              <h2 class="slider-image-title" style="--slider-text-color: var(--white-color)">APERTURA DE NUEVAS ASIGNATURAS.</h2>
+              <a href="#" class="btn">CONOCER MÁS</a>
             </div>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">Acerca</a>
-            <a href="testimonials.html">Testimonios</a>
-            <a href="contact.html">Contacto</a>
+          </aside>
+        </article>
+      </section>
+      <section class="services">
+        <article class="bg-gray-light service-card">
+          <img src="assets/icons/build.svg" alt="Cursos libres" />
+          <h2>CURSOS LIBRES</h2>
+          <small>Descubre todos los cursos disponibles dentro de nuestra plataforma.</small>
+        </article>
+        <article class="bg-gray-light service-card">
+          <img src="assets/icons/free-course.svg" alt="Certificaciones" />
+          <h2>CERTIFICACIONES</h2>
+          <small>Accede a las mejores certificaciones, guiado por nuestros profesores y comunidad.</small>
+        </article>
+        <article class="bg-gray-light service-card">
+          <img src="assets/icons/book.svg" alt="Carreras cortas" />
+          <h2>CARRERAS CORTAS</h2>
+          <small>Ingresa de forma rápida al mercado laboral y comienza a gestar tu futuro hoy mismo.</small>
+        </article>
+        <article class="bg-gray-light service-card">
+          <img src="assets/icons/dollar.svg" alt="Becas y ayudas" />
+          <h2>BECAS Y AYUDAS</h2>
+          <small>Creémos en las personas y sus capacidades, por lo cuál no dejes que temas económicos impidan tus sueños.</small>
+        </article>
+      </section>
+      <section class="banners">
+        <article class="bg-gray-dark banner">
+          <h3>MISIÓN</h3>
+          <p>
+            Ofrecer educación superior a todos los sectores de la población, especialmente a aquellos que por razones económicas, sociales,
+            geográficas, culturales, etarias, de discapacidad o de género, requieren oportunidades para una inserción real y equitativa en
+            la sociedad.
+          </p>
+        </article>
+        <article class="bg-gray-dark banner">
+          <h3>VISIÓN</h3>
+          <p>
+            Ser líder en los procesos de enseñanza y aprendizaje que emplean de manera apropiada y mediados pedagógicamente, tecnologías y
+            otros medios de comunicación social. Formando personas que piensen y actúen de manera crítica, creativa e inteligente.
+          </p>
+        </article>
+      </section>
+      <section class="social-medias">
+        <h2>ENCUÉNTRANOS EN:</h2>
+        <article class="social-media">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <span class="oval-picture">
+              <img src="assets/social_icons/facebook.svg" alt="Facebook" />
+            </span>
+          </a>
+          <a href="https://www.whatsapp.com/" target="_blank" rel="noopener">
+            <span class="oval-picture">
+              <img src="assets/social_icons/whatsapp.svg" alt="WhatsApp" />
+            </span>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">
+            <span class="oval-picture">
+              <img src="assets/social_icons/twitter.svg" alt="Twitter" />
+            </span>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            <span class="oval-picture">
+              <img src="assets/social_icons/youtube.svg" alt="YouTube" />
+            </span>
+          </a>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <article>
+        <img src="assets/img/logotype-footer.svg" alt="Academia OMG" />
+      </article>
+      <span>Todos los derechos reservados, 2021</span>
+      <article class="alternative-menu">
+        <nav class="alternative-menu-item">
+          <a href="index.html">Inicio</a>
+          <a href="about.html">Acerca</a>
+          <a href="testimonials.html">Testimonios</a>
+          <a href="contact.html">Contacto</a>
         </nav>
-        <nav>
-            <a href="free-courses.html">Cursos Libres</a>
-            <a href="fast-careers.html">Carreras Cortas</a>
-            <a href="certifications.html">Certificaciones</a>
-            <a href="scholarships.html">Becas y ayuda</a>
+        <nav class="alternative-menu-item">
+          <a href="free-courses.html">Cursos Libres</a>
+          <a href="fast-careers.html">Carreras Cortas</a>
+          <a href="certifications.html">Certificaciones</a>
+          <a href="scholarships.html">Becas y ayuda</a>
         </nav>
-        <nav>
-            <a href="advertisements.html">Anuncios</a>
-            <a href="students.html">Estudiantes</a>
-            <a href="teachers.html">Profesores</a>
-            <a href="updates.html">Actualizaciones</a>
+        <nav class="alternative-menu-item">
+          <a href="advertisements.html">Anuncios</a>
+          <a href="students.html">Estudiantes</a>
+          <a href="teachers.html">Profesores</a>
+          <a href="updates.html">Actualizaciones</a>
         </nav>
-        <span>Todos los derechos reservados, 2021</span>
+      </article>
     </footer>
-</body>
-
+  </body>
 </html>

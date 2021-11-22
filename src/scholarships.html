@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Reservar curso</title>
+    <title>Becas y Ayudas</title>
   </head>
 
   <body>
@@ -40,56 +40,37 @@
       </section>
     </header>
     <main class="container">
-      <h1 class="section-title-lg">RESERVAR CURSO</h1>
-      <section class="form-site-section course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-        <form class="form-site">
-          <aside>
-            <label for="id">ID: </label>
-            <input type="text" name="id" id="id" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
-            <br />
-            <label for="name">NOMBRE: </label>
-            <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" required />
-            <br />
-            <label for="email">EMAIL: </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
-              title="El campo debe ser un correo electrónico válido"
-              required
-            />
+      <section class="degree-courses-section">
+        <article>
+          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+            <img class="avatar" src="assets/img/mini-pro1-image.png" alt="Ofimática" />
+            <h2>OFIMÁTICA</h2>
           </aside>
-          <aside>
-            <label for="category">CATEGORÍA: </label>
-            <select name="category" id="category" required>
-              <option value="" selected>Elige una opción</option>
-              <option value="1">CURSOS LIBRES</option>
-              <option value="2">CERTIFICACIONES</option>
-              <option value="3">CARRERAS CORTAS</option>
-              <option value="4">BECAS Y AYUDAS</option>
-            </select>
-            <br />
-            <label for="course">CURSO: </label>
-            <select name="course" id="course" required>
-              <option value="" selected>Elige una opción</option>
-              <option value="1">PROGRAMACIÓN 1</option>
-              <option value="2">PROGRAMACIÓN 4</option>
-              <option value="3">CIENCIA DE DATOS</option>
-              <option value="4">PROGRAMACIÓN 3</option>
-              <option value="5">INGENIERÍA EN SISTEMAS</option>
-              <option value="6">BASE DE DATOS</option>
-              <option value="7">PROGRAMACIÓN 2</option>
-              <option value="8">ESTRUCTURA DE DATOS</option>
-            </select>
-            <br />
-            <label for="message">MENSAJE: </label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+            <img class="avatar" src="assets/img/mini-data-image.png" alt="Administración de servidores" />
+            <h2>GESTIÓN DE SERVIDORES</h2>
           </aside>
-          <aside>
-            <input class="btn" type="submit" value="ENVIAR" />
+          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+            <img class="avatar" src="assets/img/mini-ings-image.png" alt="Redes sociales" />
+            <h2>REDES SOCIALES</h2>
           </aside>
-        </form>
+          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+            <img class="avatar" src="assets/img/mini-db-image.png" alt="Imagen y diseño" />
+            <h2>IMAGEN Y DISEÑO</h2>
+          </aside>
+        </article>
+        <article>
+          <aside class="degree-courses-info course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+            <h1>BECAS Y AYUDAS</h1>
+            <p>
+              El Programa de Becas a Estudiantes fue creado con el fin de atender prioritariamente al estudiante de condición socioeconómica
+              desfavorable y que requiere de una beca para realizar estudios universitarios. Además de estimular al estudiante de buen
+              rendimiento académico y promoverlo a que se destaque en las actividades culturales y deportivas. El funcionamiento del
+              Programa de Becas se encuentra estipulado en el Reglamento general de becas para estudiantes de pregrado y grado de la
+              academia.
+            </p>
+          </aside>
+        </article>
       </section>
     </main>
     <footer class="footer">

@@ -52,7 +52,9 @@ html {
 body {
   color: var(--text-color);
   margin: 0;
+  min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
 }
 
 a {
@@ -242,6 +244,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   max-width: var(--max-width);
+  padding-bottom: 16rem;
 }
 
 .gray-scale {
@@ -324,6 +327,16 @@ p {
   padding: 0.5rem;
   color: var(--white-color);
   text-decoration: none;
+}
+
+.alternative-menu-item select {
+  background-color: var(--gray-color);
+  border-radius: 6px;
+  border-style: none;
+  height: 1.5rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  width: 6.25rem;
 }
 
 .banners {
@@ -413,12 +426,16 @@ p {
 }
 
 .footer {
-  margin-top: 4rem;
+  background-color: var(--first-color);
+  bottom: 0;
+  color: var(--white-color);
+  height: 12rem;
   margin-bottom: var(--header-height);
   padding: 0.5rem;
+  position: absolute;
+  position: absolute;
   text-align: center;
-  color: var(--white-color);
-  background-color: var(--first-color);
+  width: 100%;
 }
 
 .form-site {
@@ -428,11 +445,37 @@ p {
   width: 100%;
 }
 
+.form-login {
+  grid-template-columns: 1fr;
+}
+
+.form-login aside {
+  width: 100%;
+}
+
+.login-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+}
+
+.login-links > aside {
+  align-items: center;
+  display: flex;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
 .form-site .btn {
   width: 7.5rem;
   border-style: none;
   padding: 1.4rem;
-  margin-top: 1rem;
+  margin-top: 9rem;
+}
+
+.form-login .btn {
+  width: 21rem;
 }
 
 .form-site label {
@@ -445,6 +488,7 @@ p {
 .form-site input[type="date"],
 .form-site input[type="email"],
 .form-site input[type="text"],
+.form-site input[type="checkbox"],
 .form-site textarea,
 .form-site select {
   border-style: none;
@@ -461,6 +505,17 @@ p {
 .form-site textarea {
   height: 10rem;
   resize: none;
+}
+
+.form-login input[type="text"] {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-login input[type="checkbox"] {
+  background-color: var(--gray-color);
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .header {
@@ -502,6 +557,11 @@ p {
   padding: 1rem;
   text-align: center;
   width: 18rem;
+}
+
+.service-card > a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .service-card > img {
@@ -584,6 +644,12 @@ p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+  }
+
+  .footer-login {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .footer article {

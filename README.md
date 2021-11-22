@@ -17,3 +17,8 @@ continuará en el curso de Programación Avanzada Web haciendo uso del back-end.
 ### Nota:
 
 basado en el diseño del arte gráfico aprobado en el curso de Diseño de Páginas Web
+
+## Temas por realizar:
+
+- Ajustar los enlaces de la barra de navegación principal (Acerca y Testimonios)
+- Ajustar los enlaces de la barra de navegación secundaria (Acerca y Testimonios)

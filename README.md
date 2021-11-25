@@ -1,24 +1,25 @@
-# Academia OMG
+# OMG Academy
 
-## Taller No.1
+## Workshop No.3
 
-### Objetivo:
+### Objective:
 
-Diseñar una propuesta sobre la estructura base de un sitio web mediante el uso del lenguaje de marcas HTML5.
+Prototype design on the base structure of a website through the use of markup languages ​​and HTML5, CSS and JS programming.
 
-### Descripción General:
+### Summary:
 
-El taller a desarrollar consiste en proponer la estructura base
-de un sitio web mediante el maquetado en el lenguaje de marcas HTML5.
-La idea de este taller es que el estudiante entregue al final del curso la propuesta
-de sitio web desde el punto de vista Fron-End (HTML5, CSS y JS) y que se
-continuará en el curso de Programación Avanzada Web haciendo uso del back-end.
+The workshop to be developed consists of proposing the base structure
+of a website using HTML5 markup language layout.
+The idea of ​​this workshop is for the student to deliver the proposal at the end of the course
+of website from the Fron-End point of view (HTML5, CSS and JS) and that
+You will continue in the Advanced Web Programming course using the back-end.
 
-### Nota:
+### Notes:
 
-basado en el diseño del arte gráfico aprobado en el curso de Diseño de Páginas Web
+Based on the graphic art design approved in the Web Page Design course
 
-## Temas por realizar:
+## To do:
 
-- Ajustar los enlaces de la barra de navegación principal (Acerca y Testimonios)
-- Ajustar los enlaces de la barra de navegación secundaria (Acerca y Testimonios)
+- Create dashboard with the use of HTML5, CSS and JS programming.
+- Create a web components with the use of HTML5, CSS and JS programming.
+- Create architecture application with the use of HTML5, CSS and JS programming.

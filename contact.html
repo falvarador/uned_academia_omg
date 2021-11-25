@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Cursos Libres</title>
+    <title>Contacto</title>
   </head>
 
   <body>
@@ -40,36 +41,40 @@
       </section>
     </header>
     <main class="container">
-      <section class="degree-courses-section">
-        <article>
-          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-            <img class="avatar" src="assets/img/mini-pro1-image.png" alt="Ofimática" />
-            <h2>OFIMÁTICA</h2>
+      <h1 class="section-title">CONTACTO</h1>
+      <section class="form-site-section course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
+        <form class="form-site">
+          <aside>
+            <label for="id">ID: </label>
+            <input type="text" name="id" id="id" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
+            <br />
+            <label for="name">NOMBRE: </label>
+            <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" required />
+            <br />
+            <label for="email">EMAIL: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+              title="El campo debe ser un correo electrónico válido"
+              required
+            />
           </aside>
-          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-            <img class="avatar" src="assets/img/mini-data-image.png" alt="Administración de servidores" />
-            <h2>GESTIÓN DE SERVIDORES</h2>
+          <aside>
+            <label for="birthday">FECHA DE NACIMIENTO: </label>
+            <input type="date" name="birthday" id="birthday" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
+            <br />
+            <label for="telephone">TELÉFONO: </label>
+            <input type="text" name="telephone" id="telephone" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
+            <br />
+            <label for="message">MENSAJE: </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
           </aside>
-          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-            <img class="avatar" src="assets/img/mini-ings-image.png" alt="Redes sociales" />
-            <h2>REDES SOCIALES</h2>
+          <aside>
+            <input class="btn" type="submit" value="ENVIAR" />
           </aside>
-          <aside class="degree-courses course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-            <img class="avatar" src="assets/img/mini-db-image.png" alt="Imagen y diseño" />
-            <h2>IMAGEN Y DISEÑO</h2>
-          </aside>
-        </article>
-        <article>
-          <aside class="degree-courses-info course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-            <h1>CURSOS LIBRES</h1>
-            <p>
-              A través del Centro de Informática, se pretende dar opciones a la sociedad para ampliar los conocimientos en el área de
-              Tecnologías de Información y Comunicación (TIC). Es por esta razón que dan inicio los cursos en la Academia de Tecnología para
-              las y los interesados en incrementar sus conocimientos en diferentes temáticas de TIC, como Administración de Servidores,
-              Redes Sociales, Ofimática y algunos cursos de Diseño Web.
-            </p>
-          </aside>
-        </article>
+        </form>
       </section>
     </main>
     <footer class="footer">

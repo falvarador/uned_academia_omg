@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservar curso</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Reservar curso</title>
+    <script defer type="module" src="src/index.ts"></script>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
   </head>
 
   <body>
@@ -43,54 +44,7 @@
     <main class="container">
       <h1 class="section-title-lg">RESERVAR CURSO</h1>
       <section class="form-site-section course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-        <form class="form-site">
-          <aside>
-            <label for="id">ID: </label>
-            <input type="text" name="id" id="id" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
-            <br />
-            <label for="name">NOMBRE: </label>
-            <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" required />
-            <br />
-            <label for="email">EMAIL: </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
-              title="El campo debe ser un correo electrónico válido"
-              required
-            />
-          </aside>
-          <aside>
-            <label for="category">CATEGORÍA: </label>
-            <select name="category" id="category" required>
-              <option value="" selected>Elige una opción</option>
-              <option value="1">CURSOS LIBRES</option>
-              <option value="2">CERTIFICACIONES</option>
-              <option value="3">CARRERAS CORTAS</option>
-              <option value="4">BECAS Y AYUDAS</option>
-            </select>
-            <br />
-            <label for="course">CURSO: </label>
-            <select name="course" id="course" required>
-              <option value="" selected>Elige una opción</option>
-              <option value="1">PROGRAMACIÓN 1</option>
-              <option value="2">PROGRAMACIÓN 4</option>
-              <option value="3">CIENCIA DE DATOS</option>
-              <option value="4">PROGRAMACIÓN 3</option>
-              <option value="5">INGENIERÍA EN SISTEMAS</option>
-              <option value="6">BASE DE DATOS</option>
-              <option value="7">PROGRAMACIÓN 2</option>
-              <option value="8">ESTRUCTURA DE DATOS</option>
-            </select>
-            <br />
-            <label for="message">MENSAJE: </label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          </aside>
-          <aside>
-            <input class="btn" type="submit" value="ENVIAR" />
-          </aside>
-        </form>
+        <omg-reserve-course-form></omg-reserve-course-form>
       </section>
     </main>
     <footer class="footer">

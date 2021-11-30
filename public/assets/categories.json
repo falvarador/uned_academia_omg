@@ -1,0 +1,22 @@
+[
+  {
+    "key": 0,
+    "value": "Elige una opción"
+  },
+  {
+    "key": 1,
+    "value": "CURSOS LIBRES"
+  },
+  {
+    "key": 2,
+    "value": "CERTIFICACIONES"
+  },
+  {
+    "key": 3,
+    "value": "CARRERAS CORTAS"
+  },
+  {
+    "key": 4,
+    "value": "BECAS Y AYUDAS"
+  }
+]

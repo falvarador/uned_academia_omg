@@ -244,7 +244,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   max-width: var(--max-width);
-  padding-bottom: 16rem;
 }
 
 .gray-scale {
@@ -430,6 +429,7 @@ p {
   bottom: 0;
   color: var(--white-color);
   height: 12rem;
+  margin-top: 2rem;
   margin-bottom: var(--header-height);
   padding: 0.5rem;
   position: absolute;
@@ -445,37 +445,11 @@ p {
   width: 100%;
 }
 
-.form-login {
-  grid-template-columns: 1fr;
-}
-
-.form-login aside {
-  width: 100%;
-}
-
-.login-links {
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0.5rem;
-}
-
-.login-links > aside {
-  align-items: center;
-  display: flex;
-  flex-basis: 30%;
-  justify-content: center;
-}
-
 .form-site .btn {
   width: 7.5rem;
   border-style: none;
   padding: 1.4rem;
   margin-top: 9rem;
-}
-
-.form-login .btn {
-  width: 21rem;
 }
 
 .form-site label {
@@ -507,17 +481,6 @@ p {
   resize: none;
 }
 
-.form-login input[type="text"] {
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-.form-login input[type="checkbox"] {
-  background-color: var(--gray-color);
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
 .header {
   background-color: var(--second-alternative-color);
   bottom: 0;
@@ -537,6 +500,24 @@ p {
 
 .logotype img {
   margin-top: -0.8rem;
+}
+
+.login-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+}
+
+main {
+  padding-bottom: 14rem;
+}
+
+.login-links > aside {
+  align-items: center;
+  display: flex;
+  flex-basis: 30%;
+  justify-content: center;
 }
 
 .logotype a {

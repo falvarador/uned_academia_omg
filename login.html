@@ -3,38 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Iniciar sesión</title>
+    <script defer type="module" src="src/index.ts"></script>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
   </head>
 
   <body>
     <main class="container">
       <h1 class="section-title-lg">INICIAR SESIÓN</h1>
       <section class="form-site-section course-image-opacity" style="--course-opacity-color: var(--gray-light-color)">
-        <form class="form-site form-login">
-          <aside>
-            <label for="id">USUARIO: </label>
-            <input type="text" name="id" id="id" pattern="^[0-9]+$" title="El campo sólo acepta números" required />
-            <br />
-            <label for="name">CONTRASEÑA: </label>
-            <input type="text" name="name" id="name" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" required />
-            <br />
-            <aside class="login-links">
-              <aside>
-                <input type="checkbox"/>
-                <span for="remember">Recordar este usuario</span>
-              </aside>
-              <a href="">¿Olvidaste tu contraseña?</a>
-            </div>
-          </aside>
-            <input class="btn" type="submit" value="INGRESAR" />
-          </aside>
-        </form>
+        <omg-login-form></omg-login-form>
       </section>
     </main>
     <footer class="footer footer-login">

@@ -1,0 +1,38 @@
+[
+  {
+    "key": 0,
+    "value": "Elige una opción"
+  },
+  {
+    "key": 1,
+    "value": "PROGRAMACIÓN 1"
+  },
+  {
+    "key": 2,
+    "value": "PROGRAMACIÓN 2"
+  },
+  {
+    "key": 3,
+    "value": "PROGRAMACIÓN 3"
+  },
+  {
+    "key": 4,
+    "value": "PROGRAMACIÓN 4"
+  },
+  {
+    "key": 5,
+    "value": "CIENCIA DE DATOS"
+  },
+  {
+    "key": 6,
+    "value": "INGENIERÍA EN SISTEMAS"
+  },
+  {
+    "key": 7,
+    "value": "BASE DE DATOS"
+  },
+  {
+    "key": 8,
+    "value": "ESTRUCTURA DE DATOS"
+  }
+]
